@@ -25,8 +25,8 @@ LOG: list[dict] = []
 def check_request(body: dict) -> str | None:
     if not body.get("model"):
         return "missing model"
-    if body.get("tool_choice") != {"type": "tool", "name": "save_alt_text"}:
-        return "tool_choice must force save_alt_text"
+    if body.get("tool_choice") != {"type": "auto"}:
+        return "tool_choice must be auto (current models reject forced tool use)"
     tools = body.get("tools") or []
     if not tools or tools[0].get("name") != "save_alt_text":
         return "missing save_alt_text tool"

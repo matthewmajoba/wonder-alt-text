@@ -118,7 +118,7 @@ def build_request(image_block: dict, context: dict | None, *, model: str, mode: 
         "max_tokens": 1024,
         "system": build_system_prompt(mode, persona, story_length, language),
         "tools": [build_tool()],
-        "tool_choice": {"type": "tool", "name": "save_alt_text"},
+        "tool_choice": {"type": "auto"},
         "messages": [
             {
                 "role": "user",

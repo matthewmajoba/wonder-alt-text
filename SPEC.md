@@ -73,12 +73,12 @@ Send a Claude Messages API request:
   "max_tokens": 1024,
   "system": "<system prompt from step 1>",
   "tools": [ <tool.json, with personas.items.enum set to the persona slugs> ],
-  "tool_choice": { "type": "tool", "name": "save_alt_text" },
+  "tool_choice": { "type": "auto" },
   "messages": [ { "role": "user", "content": [ <image block>, <context text block> ] } ]
 }
 ```
 
-`tool_choice` forces the model to answer by calling `save_alt_text`, so the reply is always structured. Retry on HTTP 429, 529 and 5xx with a short backoff.
+The system prompt tells the model to answer by calling `save_alt_text`, so the reply is structured. Use `tool_choice` `auto`: current Claude models reject forced tool use (`"any"` or `"tool"`) with HTTP 400. If a reply has no `save_alt_text` call, treat it as a failure and retry the image. Retry on HTTP 429, 529 and 5xx with a short backoff.
 
 For large libraries, use the Message Batches API instead (`POST /v1/messages/batches`). Each request gets a `custom_id` (the image's ID) and the same `params` as above. Batches cost about half as much and usually finish within an hour.
 

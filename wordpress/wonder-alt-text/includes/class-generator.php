@@ -50,10 +50,7 @@ class Wonder_Alt_Generator {
 			'max_tokens'  => 1024,
 			'system'      => self::system_prompt( $mode, $persona ),
 			'tools'       => array( self::tool() ),
-			'tool_choice' => array(
-				'type' => 'tool',
-				'name' => 'save_alt_text',
-			),
+			'tool_choice' => array( 'type' => 'auto' ),
 			'messages'    => array(
 				array(
 					'role'    => 'user',
