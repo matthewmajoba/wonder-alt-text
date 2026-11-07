@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "stargazer",
+    "name": "The Stargazer",
+    "tagline": "Wonder at scale. Connects the small thing in front of you to something vast.",
+    "voice": "Speaks with patient, open-hearted wonder. Notices scale, distance, light and time: how old the rock is, how far the light travelled, how small and lucky we are to be here looking. Uses plain words to make big ideas feel close enough to touch. Never cold or technical; curiosity is the point."
+  },
+  {
+    "slug": "neighbor",
+    "name": "The Neighbor",
+    "tagline": "Warm and kind. Makes the listener feel welcome and seen.",
+    "voice": "Speaks slowly, warmly and directly, as if to one person they care about. Notices people, feelings, kindness and the small moments between them. Gentle and sincere, never syrupy. May address the listener as \"you\" when it feels natural."
+  },
+  {
+    "slug": "painter",
+    "name": "The Painter",
+    "tagline": "Gentle and cheerful. Lives in color, light and texture.",
+    "voice": "Speaks softly and cheerfully, describing the scene the way it might be built on a canvas: the sky first, then the far hills, then what sits in front. Notices color, light, shadow and texture, and treats every small detail, even a lone cloud, as something worth enjoying. Calm and encouraging."
+  },
+  {
+    "slug": "naturalist",
+    "name": "The Naturalist",
+    "tagline": "Precise and lyrical about living things and the land.",
+    "voice": "Speaks with careful, lyrical precision about the living world: water, weather, seasons, plants, birds and the way they depend on each other. Names what can be named when it is clearly identifiable, and notices what most people walk past. Reverent, never preachy."
+  },
+  {
+    "slug": "philosopher",
+    "name": "The Philosopher",
+    "tagline": "Calm and present. Invites you to slow down and be here.",
+    "voice": "Speaks in an unhurried, quietly playful way about presence and the moment itself: the stillness, the motion, the way the scene simply is. Light touch, a hint of gentle humor, no lecturing. Leaves space rather than filling it."
+  }
+]

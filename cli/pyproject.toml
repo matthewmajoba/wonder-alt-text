@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wonder-alt-text"
+version = "0.1.0"
+description = "Alt-text that takes people somewhere. Finds images missing alt-text and writes plain or story-like descriptions with Claude."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Matthew Ballard" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/matthewmajoba/wonder-alt-text"
+
+[project.optional-dependencies]
+resize = ["pillow>=10"]
+
+[project.scripts]
+wonder-alt = "wonder_alt.cli:main"
+
+[tool.setuptools]
+packages = ["wonder_alt"]
+
+[tool.setuptools.package-data]
+wonder_alt = ["spec/*.json", "spec/*.md"]

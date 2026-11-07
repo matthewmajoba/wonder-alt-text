@@ -1,0 +1,17 @@
+.wonder-alt-lede { font-size: 14px; max-width: 46em; }
+.wonder-alt-stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; padding: 0; list-style: none; }
+.wonder-alt-stats li { min-width: 130px; margin: 0; padding: 14px 18px; background: #fff; border: 1px solid #dcdcde; border-radius: 4px; }
+.wonder-alt-stats strong { display: block; font-size: 24px; line-height: 1.2; }
+.wonder-alt-stats span { color: #50575e; }
+.wonder-alt-progress { min-height: 1.5em; font-weight: 600; }
+.wonder-alt-log { max-height: 420px; overflow-y: auto; margin: 8px 0 24px; padding: 0; list-style: none; }
+.wonder-alt-log li { display: flex; gap: 12px; margin: 0; padding: 10px 12px; background: #fff; border-left: 4px solid #00a32a; border-bottom: 1px solid #f0f0f1; }
+.wonder-alt-log li.is-error { border-left-color: #d63638; }
+.wonder-alt-log img { flex: none; width: 48px; height: 48px; object-fit: cover; border-radius: 2px; }
+.wonder-alt-log p { margin: 4px 0 0; }
+.wonder-alt-queue .wonder-alt-thumb { width: 90px; }
+.wonder-alt-queue .wonder-alt-thumb img { width: 80px; height: 80px; object-fit: cover; }
+.wonder-alt-queue .wonder-alt-actions { width: 220px; }
+.wonder-alt-queue .wonder-alt-actions .button { margin: 0 4px 4px 0; }
+.wonder-alt-field select { max-width: 48%; margin-bottom: 4px; }
+.wonder-alt-field .wonder-alt-status { margin: 6px 0 0; font-style: italic; }

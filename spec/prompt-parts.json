@@ -1,0 +1,20 @@
+{
+  "story_length": {
+    "short": "one sentence",
+    "medium": "two sentences",
+    "long": "three sentences"
+  },
+  "mode_instruction": {
+    "auto": "Decide which mode fits this image. When in doubt, choose PLAIN MODE.",
+    "plain": "For this image, use PLAIN MODE.",
+    "story": "For this image, use STORY MODE, unless the image is clearly a logo, icon, screenshot or text graphic, in which case use PLAIN MODE."
+  },
+  "narrator_line": "- {{slug}} ({{name}}): {{voice}}",
+  "narrator_instruction": {
+    "auto": "In story mode, choose the narrator whose way of seeing best fits the image. You may blend two narrators when the image calls for it (for example, a mountain at dawn might suit stargazer and painter). Never blend more than two. The listener should hear one coherent voice, not a mix of styles.",
+    "fixed": "In story mode, narrate as {{persona}}."
+  },
+  "language_instruction": "Write the alt-text in this language: {{language}}.",
+  "user_message_header": "Write alt-text for this image.\n\nContext (may be incomplete or wrong; the image wins):",
+  "image_types": ["product", "logo", "icon", "screenshot", "text", "chart", "map", "people", "scene", "nature", "food", "interior", "event", "other"]
+}

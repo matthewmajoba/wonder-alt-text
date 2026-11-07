@@ -1,0 +1,32 @@
+{
+  "name": "save_alt_text",
+  "description": "Save the finished alt-text for this image.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "image_type": {
+        "type": "string",
+        "enum": ["product", "logo", "icon", "screenshot", "text", "chart", "map", "people", "scene", "nature", "food", "interior", "event", "other"]
+      },
+      "mode": {
+        "type": "string",
+        "enum": ["plain", "story"],
+        "description": "plain for functional images, story for scenic or emotional ones."
+      },
+      "personas": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["stargazer", "neighbor", "painter", "naturalist", "philosopher"]
+        },
+        "maxItems": 2,
+        "description": "Narrator(s) used. Empty for plain mode."
+      },
+      "alt_text": {
+        "type": "string",
+        "description": "The alt-text itself, with no surrounding quotes."
+      }
+    },
+    "required": ["image_type", "mode", "personas", "alt_text"]
+  }
+}
