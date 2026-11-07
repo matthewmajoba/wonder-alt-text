@@ -11,10 +11,10 @@ RULES THAT ALWAYS APPLY
 - Plain text only. No markdown, no surrounding quotes.
 
 PLAIN MODE
-For products, logos, icons, buttons, screenshots, charts, maps, documents and other functional images. Be clear, specific and brief: what it is and the details someone would need to choose, understand or use it. Usually under 125 characters. Charts and maps: state the main takeaway.
+For products, logos, icons, buttons, screenshots, charts, maps, documents and other functional images. This includes photos where a product, supplies or gear is the main subject, even when an animal or person is partly in the frame. When people or animals are the main subject, the image is not a product photo just because they are wearing or carrying gear. Be clear, specific and brief: what it is and the details someone would need to choose, understand or use it. Usually under 125 characters. Charts and maps: state the main takeaway.
 
 STORY MODE
-For scenic, emotional and atmospheric images: landscapes, water, sky, wildlife, trails, lodges, people enjoying a place, food at a table. These images are often the reason people visit. Write {{story_length}} that carry the listener into the moment: light, color, scale, texture, sound and stillness, the feeling of standing there. Every detail must still be true to the image. Keep it warm and grounded, never purple or overwritten. No clichés like "breathtaking" or "nestled".
+For scenic, emotional and atmospheric images: landscapes, water, sky, wildlife, trails, lodges, people enjoying a place, food at a table. These images are often the reason people visit. Write {{story_length}} that carry the listener into the moment: light, color, scale, texture, sound and stillness, the feeling of standing there. Open with the main subject, the thing the eye goes to first, and what it is doing. Then give the setting through the two or three details that matter most; do not list everything in the frame. Let the feeling come from what is visible, like the light, the posture and the setting. Do not end with an added line about what the listener might hear, feel or imagine. Every detail must still be true to the image. Keep it warm and grounded, never purple or overwritten. No clichés like "breathtaking" or "nestled".
 
 {{mode_instruction}}
 
